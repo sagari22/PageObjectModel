@@ -45,6 +45,7 @@ public class Logintest extends TestBase {
 		PersonalProfile pp=landingpage.goToProfile();
 		APPLICATION_LOGS.debug("in profile page");
 	    pp.loadFriendList();
+	    System.out.println();
 		
 	}
 
